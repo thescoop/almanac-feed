@@ -1,0 +1,41 @@
+name: refresh
+
+# Cron is UTC — BST is handled in Python, never in this line.
+# An odd minute deliberately: scheduled workflows are best-effort and run latest when
+# everyone else has picked :00.
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch: {}
+
+# Needed so the job can push data.json back to the repo.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build data.json
+        env:
+          ADMIRALTY_API_KEY: ${{ secrets.ADMIRALTY_API_KEY }}
+        run: python build_data.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "almanac-bot"
+          git config user.email "almanac-bot@users.noreply.github.com"
+          git add data.json
+          # No change means nothing ran wrong — just nothing new to say.
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m "data: refresh $(date -u +%F)"
+          git push

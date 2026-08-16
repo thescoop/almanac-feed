@@ -1,0 +1,19 @@
+# secrets — the Admiralty key lives in a GitHub Actions secret, never on disk
+.env
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# scratch — raw pages saved while working out a parser
+scratch/
+*.html
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
