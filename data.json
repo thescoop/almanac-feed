@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-08-19T05:49Z",
-  "date_label": "Wed 19 Aug '26",
+  "generated_utc": "2026-08-20T05:48Z",
+  "date_label": "Thu 20 Aug '26",
   "sun": {
-    "rise": "05:54",
-    "set": "20:13",
-    "daylight": "14h 18m",
-    "change_label": "3m 32s less than yesterday",
+    "rise": "05:55",
+    "set": "20:11",
+    "daylight": "14h 15m",
+    "change_label": "3m 33s less than yesterday",
     "ok": true
   },
   "moon": {
-    "phase": "Waxing crescent",
-    "illum_pct": 41,
+    "phase": "First quarter",
+    "illum_pct": 50,
     "ok": true,
-    "rise": "14:20",
-    "set": "22:17"
+    "rise": "15:32",
+    "set": "22:46"
   },
   "tide": {
     "ok": false,
@@ -25,13 +25,13 @@
       {
         "from": "11:00",
         "to": "15:30",
-        "label": "Slide / Flume Available",
+        "label": "Open Swim",
         "open": true
       },
       {
         "from": "11:00",
-        "to": "18:00",
-        "label": "Open Swim",
+        "to": "15:30",
+        "label": "Slide / Flume Available",
         "open": true
       },
       {
@@ -39,11 +39,17 @@
         "to": "20:00",
         "label": "Slide / Flume Available",
         "open": true
+      },
+      {
+        "from": "18:00",
+        "to": "20:00",
+        "label": "Open Swim",
+        "open": true
       }
     ],
-    "rows_seen": 14,
+    "rows_seen": 18,
     "ok": true,
-    "last_ok": "2026-08-19"
+    "last_ok": "2026-08-20"
   },
   "all_ok": false
 }
