@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-08-26T05:52Z",
-  "date_label": "Wed 26 Aug '26",
+  "generated_utc": "2026-08-27T16:33Z",
+  "date_label": "Thu 27 Aug '26",
   "sun": {
-    "rise": "06:05",
-    "set": "19:58",
-    "daylight": "13h 53m",
+    "rise": "06:06",
+    "set": "19:56",
+    "daylight": "13h 49m",
     "change_label": "3m 39s less than yesterday",
     "ok": true
   },
   "moon": {
     "phase": "Waxing gibbous",
-    "illum_pct": 94,
+    "illum_pct": 98,
     "ok": true,
-    "rise": "19:28",
-    "set": "03:45"
+    "rise": "19:43",
+    "set": "05:01"
   },
   "tide": {
     "ok": false,
@@ -25,13 +25,13 @@
       {
         "from": "11:00",
         "to": "15:30",
-        "label": "Slide / Flume Available",
+        "label": "Open Swim",
         "open": true
       },
       {
         "from": "11:00",
-        "to": "18:00",
-        "label": "Open Swim",
+        "to": "15:30",
+        "label": "Slide / Flume Available",
         "open": true
       },
       {
@@ -39,11 +39,17 @@
         "to": "20:00",
         "label": "Slide / Flume Available",
         "open": true
+      },
+      {
+        "from": "18:00",
+        "to": "20:00",
+        "label": "Open Swim",
+        "open": true
       }
     ],
-    "rows_seen": 13,
+    "rows_seen": 19,
     "ok": true,
-    "last_ok": "2026-08-26"
+    "last_ok": "2026-08-27"
   },
   "all_ok": false
 }
