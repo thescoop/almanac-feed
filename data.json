@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-08-27T16:33Z",
-  "date_label": "Thu 27 Aug '26",
+  "generated_utc": "2026-08-28T17:28Z",
+  "date_label": "Fri 28 Aug '26",
   "sun": {
-    "rise": "06:06",
-    "set": "19:56",
-    "daylight": "13h 49m",
-    "change_label": "3m 39s less than yesterday",
+    "rise": "06:08",
+    "set": "19:54",
+    "daylight": "13h 46m",
+    "change_label": "3m 40s less than yesterday",
     "ok": true
   },
   "moon": {
-    "phase": "Waxing gibbous",
-    "illum_pct": 98,
+    "phase": "Full moon",
+    "illum_pct": 100,
     "ok": true,
-    "rise": "19:43",
-    "set": "05:01"
+    "rise": "19:56",
+    "set": "06:17"
   },
   "tide": {
     "ok": false,
@@ -23,33 +23,21 @@
     "facility": "Lagoon",
     "sessions": [
       {
-        "from": "11:00",
-        "to": "15:30",
-        "label": "Open Swim",
-        "open": true
-      },
-      {
-        "from": "11:00",
+        "from": "10:00",
         "to": "15:30",
         "label": "Slide / Flume Available",
         "open": true
       },
       {
-        "from": "18:00",
-        "to": "20:00",
-        "label": "Slide / Flume Available",
-        "open": true
-      },
-      {
-        "from": "18:00",
-        "to": "20:00",
+        "from": "10:00",
+        "to": "18:00",
         "label": "Open Swim",
         "open": true
       }
     ],
-    "rows_seen": 19,
+    "rows_seen": 12,
     "ok": true,
-    "last_ok": "2026-08-27"
+    "last_ok": "2026-08-28"
   },
   "all_ok": false
 }
