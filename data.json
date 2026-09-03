@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-09-02T09:41Z",
-  "date_label": "Wed 2 Sep '26",
+  "generated_utc": "2026-09-03T09:54Z",
+  "date_label": "Thu 3 Sep '26",
   "sun": {
-    "rise": "06:16",
-    "set": "19:43",
-    "daylight": "13h 27m",
-    "change_label": "3m 43s less than yesterday",
+    "rise": "06:17",
+    "set": "19:41",
+    "daylight": "13h 23m",
+    "change_label": "3m 44s less than yesterday",
     "ok": true
   },
   "moon": {
     "phase": "Waning gibbous",
-    "illum_pct": 80,
+    "illum_pct": 71,
     "ok": true,
-    "rise": "21:17",
-    "set": "12:57"
+    "rise": "21:50",
+    "set": "14:22"
   },
   "tide": {
     "ok": false,
@@ -25,13 +25,13 @@
       {
         "from": "11:00",
         "to": "15:30",
-        "label": "Slide / Flume Available",
+        "label": "Open Swim",
         "open": true
       },
       {
         "from": "11:00",
-        "to": "18:00",
-        "label": "Open Swim",
+        "to": "15:30",
+        "label": "Slide / Flume Available",
         "open": true
       },
       {
@@ -39,11 +39,17 @@
         "to": "20:00",
         "label": "Slide / Flume Available",
         "open": true
+      },
+      {
+        "from": "18:00",
+        "to": "20:00",
+        "label": "Open Swim",
+        "open": true
       }
     ],
-    "rows_seen": 13,
+    "rows_seen": 19,
     "ok": true,
-    "last_ok": "2026-09-02"
+    "last_ok": "2026-09-03"
   },
   "all_ok": false
 }
