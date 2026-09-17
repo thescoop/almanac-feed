@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-09-16T09:59Z",
-  "date_label": "Wed 16 Sep '26",
+  "generated_utc": "2026-09-17T10:03Z",
+  "date_label": "Thu 17 Sep '26",
   "sun": {
-    "rise": "06:37",
-    "set": "19:12",
-    "daylight": "12h 34m",
+    "rise": "06:39",
+    "set": "19:10",
+    "daylight": "12h 30m",
     "change_label": "3m 48s less than yesterday",
     "ok": true
   },
   "moon": {
     "phase": "Waxing crescent",
-    "illum_pct": 26,
+    "illum_pct": 34,
     "ok": true,
-    "rise": "13:14",
-    "set": "20:45"
+    "rise": "14:23",
+    "set": "21:21"
   },
   "tide": {
     "ok": false,
@@ -24,7 +24,7 @@
     "sessions": [
       {
         "from": "11:00",
-        "to": "18:00",
+        "to": "15:30",
         "label": "Open Swim",
         "open": true
       },
@@ -33,11 +33,17 @@
         "to": "20:00",
         "label": "Slide / Flume Available",
         "open": true
+      },
+      {
+        "from": "18:00",
+        "to": "20:00",
+        "label": "Open Swim",
+        "open": true
       }
     ],
-    "rows_seen": 14,
+    "rows_seen": 18,
     "ok": true,
-    "last_ok": "2026-09-16"
+    "last_ok": "2026-09-17"
   },
   "all_ok": false
 }
