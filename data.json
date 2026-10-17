@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-10-16T09:53Z",
-  "date_label": "Fri 16 Oct '26",
+  "generated_utc": "2026-10-17T09:27Z",
+  "date_label": "Sat 17 Oct '26",
   "sun": {
-    "rise": "07:25",
-    "set": "18:06",
-    "daylight": "10h 40m",
-    "change_label": "3m 44s less than yesterday",
+    "rise": "07:27",
+    "set": "18:04",
+    "daylight": "10h 36m",
+    "change_label": "3m 43s less than yesterday",
     "ok": true
   },
   "moon": {
     "phase": "Waxing crescent",
-    "illum_pct": 28,
+    "illum_pct": 36,
     "ok": true,
-    "rise": "14:03",
-    "set": "20:54"
+    "rise": "14:43",
+    "set": "21:58"
   },
   "tide": {
     "ok": false,
@@ -23,15 +23,21 @@
     "facility": "Lagoon",
     "sessions": [
       {
-        "from": "10:00",
-        "to": "18:00",
+        "from": "09:45",
+        "to": "17:00",
         "label": "Open Swim",
+        "open": true
+      },
+      {
+        "from": "13:00",
+        "to": "17:00",
+        "label": "Slide / Flume Available",
         "open": true
       }
     ],
-    "rows_seen": 11,
+    "rows_seen": 9,
     "ok": true,
-    "last_ok": "2026-10-16"
+    "last_ok": "2026-10-17"
   },
   "all_ok": false
 }
